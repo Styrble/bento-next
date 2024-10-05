@@ -123,7 +123,7 @@ export const config: Config = {
       },
       {
         name: 'pcgamingwiki',
-        icon: 'gamepad-modern',
+        icon: 'joystick',
         url: 'https://www.pcgamingwiki.com/wiki/Home/',
       },
       {
