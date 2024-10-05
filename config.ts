@@ -11,8 +11,8 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
-  openInNewTab: true,
+  name: 'Styrble',
+  openInNewTab: false,
   title: 'Bento',
 
   // Clock
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-frappe',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -50,7 +50,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
@@ -102,34 +102,34 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'freemediaheckyeah', // set the name of the card
+        icon: 'play', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://fmhy.pages.dev/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
-      },
-      {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
-      },
-      {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
-      },
-      {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
-      },
-      {
-        name: 'Odysee',
+        name: 'youtube',
         icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        url: 'https://www.youtube.com/feed/subscriptions',
+      },
+      {
+        name: 'modrinth',
+        icon: 'wrench',
+        url: 'https://modrinth.com/mods',
+      },
+      {
+        name: 'nexusmods',
+        icon: 'globe',
+        url: 'https://www.nexusmods.com/',
+      },
+      {
+        name: 'pcgamingwiki',
+        icon: 'alien-8bit',
+        url: 'https://www.pcgamingwiki.com/wiki/Home/',
+      },
+      {
+        name: 'monkeytype',
+        icon: 'monkey',
+        url: 'https://monkeytype.com/',
       },
     ],
     // Second buttons group
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'building-columns', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'puls', // Display text for the link
+            url: 'https://puls.uni-potsdam.de/', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'moodle',
+            url: 'https://moodle2.uni-potsdam.de/my/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'fsr maphy',
+            url: 'https://www.uni-potsdam.de/de/fsr-maphy/',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'fsr info',
+            url: 'https://fsr.cs.uni-potsdam.de/',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'calculator',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'desmos',
+            url: 'https://www.desmos.com/calculator',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'cymath',
+            url: 'https://www.cymath.com/',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'microsoft math solver',
+            url: 'https://math.microsoft.com/de',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'learnlatex',
+            url: 'https://www.learnlatex.org/de/',
           },
         ],
       },
