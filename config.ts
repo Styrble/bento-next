@@ -123,12 +123,12 @@ export const config: Config = {
       },
       {
         name: 'pcgamingwiki',
-        icon: 'alien-8bit',
+        icon: 'gamepad-modern',
         url: 'https://www.pcgamingwiki.com/wiki/Home/',
       },
       {
         name: 'monkeytype',
-        icon: 'monkey',
+        icon: 'keyboard',
         url: 'https://monkeytype.com/',
       },
     ],
