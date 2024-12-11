@@ -123,13 +123,13 @@ export const config: Config = {
       },
       {
         name: 'pcgamingwiki',
-        icon: 'joystick',
-        url: 'https://www.pcgamingwiki.com/wiki/Home/',
+        icon: 'headset',
+        url: 'https://www.pcgamingwiki.com/wiki/Home',
       },
       {
-        name: 'monkeytype',
-        icon: 'keyboard',
-        url: 'https://monkeytype.com/',
+        name: 'copilot',
+        icon: 'robot',
+        url: 'https://copilot.microsoft.com/',
       },
     ],
     // Second buttons group
