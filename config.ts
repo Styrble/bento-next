@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'catppuccin-frappe',
+  theme: 'bento',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -128,9 +128,9 @@ export const config: Config = {
         url: 'https://www.pcgamingwiki.com/wiki/Home',
       },
       {
-        name: 'copilot',
+        name: 'gemini',
         icon: 'robot',
-        url: 'https://copilot.microsoft.com/',
+        url: 'https://aistudio.google.com/',
       },
     ],
     // Second buttons group
