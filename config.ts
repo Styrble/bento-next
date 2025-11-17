@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'Styrble',
+  name: 'Oppenminer',
   openInNewTab: false,
   title: 'Bento',
 
@@ -24,11 +24,11 @@ export const config: Config = {
     // 'google' or 'local'
     source: 'google',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'Inter',
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'adwaita',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -37,6 +37,7 @@ export const config: Config = {
   backgroundImage: '',
   themes: [
     // List of installed themes, add your own themes in ./src/assets/css/themes and include it in the array below.
+    'adwaita',
     'arc',
     'bento',
     'catppuccin-frappe',
@@ -71,8 +72,8 @@ export const config: Config = {
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // Request location from the browser. If false, or location is denied, use the coordinates below.
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '0.000',
+  defaultLongitude: '0.000',
 
   // Automatic theme switching:
   // "system" - Switches based on OS color preference
